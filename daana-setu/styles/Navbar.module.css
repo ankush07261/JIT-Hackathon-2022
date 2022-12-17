@@ -1,0 +1,36 @@
+
+    .navbar {
+        width: 100%;
+        height: 4rem;
+        position: relative;
+        display:flex;
+        justify-content: space-between;
+        background-color: #004AAD;
+        z-index: 2;
+    }
+    .navnav {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        
+        height: 4rem;
+    }
+    .navnav li{
+        padding:.5rem;
+        border-radius: 12px;
+        text-decoration: none;
+        font-size:1.25rem;
+        list-style-type: none;
+        margin: 1rem;
+        transition: all 300ms ease-in-out;
+    }
+.navnav li:hover {
+    background-color: #5079E4;
+    
+    /* text-shadow: 0 0 1rem white; */
+}
+.clogo{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
