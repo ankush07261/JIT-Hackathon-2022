@@ -54,7 +54,10 @@ export default function Home() {
             </div>
           </Link>
         </div>
-        <div className={styles.footer}></div>
+        <div className={styles.footer}>
+          {/* <a href="#" className="pp">Privacy Policy</a>
+          <a href="#" className="tc">Terms & Conditions</a> */}
+        </div>
       </div>
     </>
   )
